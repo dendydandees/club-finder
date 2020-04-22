@@ -1,0 +1,23 @@
+.fan-art-club {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.club-info {
+  padding: 24px;
+}
+
+.club-info > h2 {
+  font-weight: lighter;
+}
+
+.club-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10; /* number of lines to show */
+}
